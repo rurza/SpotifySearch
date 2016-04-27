@@ -1,0 +1,8 @@
+use_frameworks!
+
+
+target 'SpotifySearch_Tests', :exclusive => true do
+  pod 'SpotifySearch', :path => '../'
+
+  
+end
