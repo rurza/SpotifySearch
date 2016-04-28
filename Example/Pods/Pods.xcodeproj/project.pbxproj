@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C142FA7549D79BB9FF6A2E4BC5B38A /* Pods-SpotifySearch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932145C7FA97F4FE9046C46A7E8733C0 /* Pods-SpotifySearch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1E871D1CD296EB00E4F303 /* SpotifySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1E871B1CD296EB00E4F303 /* SpotifySearch.h */; };
+		5B1E871E1CD296EB00E4F303 /* SpotifySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1E871B1CD296EB00E4F303 /* SpotifySearch.h */; };
+		5B1E871F1CD296EB00E4F303 /* SpotifySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E871C1CD296EB00E4F303 /* SpotifySearch.m */; };
+		5B1E87201CD296EB00E4F303 /* SpotifySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E871C1CD296EB00E4F303 /* SpotifySearch.m */; };
+		75FFA05331EEEED59637FC690BBB425B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		808870C6A8CB747DA0849AF4BC1E554E /* SpotifySearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0E770849F9205FEC338517D9D93A9 /* SpotifySearch-dummy.m */; };
+		883A7E2116CE9671F8BD4DF95F8752D5 /* SpotifySearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AB50BD7A15BFA6EB810D12E9ECE19D /* SpotifySearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB12AF86AD727DA3A0B74DCA25437F15 /* Pods-SpotifySearch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51038832ED940B46190B4AF2686ACFB1 /* Pods-SpotifySearch_Tests-dummy.m */; };
+		C91133E37E90940A7914A1FE704A95AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F0A573B309FDEF9C1F4954E5CB595EF5 /* SpotifySearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F592D05681E4D85E18B8E554CBC8C35 /* SpotifySearch.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B73312832578535843DE6F189FFA1DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3878887F108BF6B390A21926B99BA8D7;
+			remoteInfo = SpotifySearch;
+		};
+		FD13BA57845F34AA1D129EE1AA5A79D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71AB53C3465C29BCDDA817253BB0B4B;
+			remoteInfo = "SpotifySearch-SpotifySearch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB0B4AFE3349B308D1A06A10E2B6FCC /* Pods-SpotifySearch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotifySearch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47028B638A86FD078ED834AB19B77E85 /* Pods-SpotifySearch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotifySearch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4D03BF638FAFDF161A57A7A004153CC7 /* Pods-SpotifySearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifySearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F592D05681E4D85E18B8E554CBC8C35 /* SpotifySearch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifySearch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		51038832ED940B46190B4AF2686ACFB1 /* Pods-SpotifySearch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotifySearch_Tests-dummy.m"; sourceTree = "<group>"; };
+		51816D506C4C7705E2E4E8A4F4D19C12 /* SpotifySearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SpotifySearch.modulemap; sourceTree = "<group>"; };
+		5B1E871B1CD296EB00E4F303 /* SpotifySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifySearch.h; sourceTree = "<group>"; };
+		5B1E871C1CD296EB00E4F303 /* SpotifySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifySearch.m; sourceTree = "<group>"; };
+		6379F328E74F8DF0D5CC5461BF823BE1 /* Pods-SpotifySearch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotifySearch_Tests-resources.sh"; sourceTree = "<group>"; };
+		64AB50BD7A15BFA6EB810D12E9ECE19D /* SpotifySearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifySearch-umbrella.h"; sourceTree = "<group>"; };
+		81FBE25B880C97086CE5A8D95344D09D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844A1D761481A575EB884B507035E1EC /* Pods_SpotifySearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifySearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848BBB800A173AF018C323B076F94CDA /* Pods-SpotifySearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifySearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		932145C7FA97F4FE9046C46A7E8733C0 /* Pods-SpotifySearch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotifySearch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A9BB7FA16F5E40A211E6D9B0F8CE9F4F /* SpotifySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotifySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE0E770849F9205FEC338517D9D93A9 /* SpotifySearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpotifySearch-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7E131AC1C07D6D91232CC557F2A41C8 /* Pods-SpotifySearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpotifySearch_Tests.modulemap"; sourceTree = "<group>"; };
+		CBEFFB544DB59FCACDC92DEFAC9A372C /* SpotifySearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifySearch-prefix.pch"; sourceTree = "<group>"; };
+		E146F8A818B1A1FC13F3F11E00A4BAC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifySearch.xcconfig; sourceTree = "<group>"; };
+		F9054A7BCE272E199082B04CC66E7BCA /* Pods-SpotifySearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotifySearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C3F2569F57EA8BBD9830013DB97812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BCA110F2D14F02B1DF2F58C1874B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FFA05331EEEED59637FC690BBB425B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC04665A0C69089AE64D9AEB2E26BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91133E37E90940A7914A1FE704A95AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCCD73F1F59C651FBADEAE3538389CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E871B1CD296EB00E4F303 /* SpotifySearch.h */,
+				5B1E871C1CD296EB00E4F303 /* SpotifySearch.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5170030EE8487865AF604410D9B4FA48 /* SpotifySearch */ = {
+			isa = PBXGroup;
+			children = (
+				3FCCD73F1F59C651FBADEAE3538389CB /* Classes */,
+			);
+			path = SpotifySearch;
+			sourceTree = "<group>";
+		};
+		74B48671C4B610FA3B9CD0C494C53AC9 /* SpotifySearch */ = {
+			isa = PBXGroup;
+			children = (
+				5170030EE8487865AF604410D9B4FA48 /* SpotifySearch */,
+				EB40C3933B771EB20B11BA4EF57ADC77 /* Support Files */,
+			);
+			name = SpotifySearch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7BAA6EF0F175D3ACD927C3D2142D1D1B /* Pods-SpotifySearch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E146F8A818B1A1FC13F3F11E00A4BAC1 /* Info.plist */,
+				C7E131AC1C07D6D91232CC557F2A41C8 /* Pods-SpotifySearch_Tests.modulemap */,
+				2AB0B4AFE3349B308D1A06A10E2B6FCC /* Pods-SpotifySearch_Tests-acknowledgements.markdown */,
+				F9054A7BCE272E199082B04CC66E7BCA /* Pods-SpotifySearch_Tests-acknowledgements.plist */,
+				51038832ED940B46190B4AF2686ACFB1 /* Pods-SpotifySearch_Tests-dummy.m */,
+				47028B638A86FD078ED834AB19B77E85 /* Pods-SpotifySearch_Tests-frameworks.sh */,
+				6379F328E74F8DF0D5CC5461BF823BE1 /* Pods-SpotifySearch_Tests-resources.sh */,
+				932145C7FA97F4FE9046C46A7E8733C0 /* Pods-SpotifySearch_Tests-umbrella.h */,
+				848BBB800A173AF018C323B076F94CDA /* Pods-SpotifySearch_Tests.debug.xcconfig */,
+				4D03BF638FAFDF161A57A7A004153CC7 /* Pods-SpotifySearch_Tests.release.xcconfig */,
+			);
+			name = "Pods-SpotifySearch_Tests";
+			path = "Target Support Files/Pods-SpotifySearch_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E0CA10F65E4B6124E7523DF3F0113D5F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F9B4D22C2C84F8BAAFFA9DF071204BDB /* Products */,
+				9BE106506BF7EF2765C38F68DA431A1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE106506BF7EF2765C38F68DA431A1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA6EF0F175D3ACD927C3D2142D1D1B /* Pods-SpotifySearch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E0CA10F65E4B6124E7523DF3F0113D5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B48671C4B610FA3B9CD0C494C53AC9 /* SpotifySearch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EB40C3933B771EB20B11BA4EF57ADC77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81FBE25B880C97086CE5A8D95344D09D /* Info.plist */,
+				51816D506C4C7705E2E4E8A4F4D19C12 /* SpotifySearch.modulemap */,
+				E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */,
+				AAE0E770849F9205FEC338517D9D93A9 /* SpotifySearch-dummy.m */,
+				CBEFFB544DB59FCACDC92DEFAC9A372C /* SpotifySearch-prefix.pch */,
+				64AB50BD7A15BFA6EB810D12E9ECE19D /* SpotifySearch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpotifySearch";
+			sourceTree = "<group>";
+		};
+		F9B4D22C2C84F8BAAFFA9DF071204BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844A1D761481A575EB884B507035E1EC /* Pods_SpotifySearch_Tests.framework */,
+				4F592D05681E4D85E18B8E554CBC8C35 /* SpotifySearch.bundle */,
+				A9BB7FA16F5E40A211E6D9B0F8CE9F4F /* SpotifySearch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B581FCD884C936BAB4E7BB957859416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C142FA7549D79BB9FF6A2E4BC5B38A /* Pods-SpotifySearch_Tests-umbrella.h in Headers */,
+				5B1E871D1CD296EB00E4F303 /* SpotifySearch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7718F54949B4B738B67174ABC791D3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A7E2116CE9671F8BD4DF95F8752D5 /* SpotifySearch-umbrella.h in Headers */,
+				5B1E871E1CD296EB00E4F303 /* SpotifySearch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3878887F108BF6B390A21926B99BA8D7 /* SpotifySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ED1BB1502AC30B7CE298CB4E06A880 /* Build configuration list for PBXNativeTarget "SpotifySearch" */;
+			buildPhases = (
+				FCEE88020D496844BA8AEC47B02E9EA4 /* Sources */,
+				D8BCA110F2D14F02B1DF2F58C1874B8A /* Frameworks */,
+				7082D5E01C9FD1D75C0C91E7E221551D /* Resources */,
+				B7718F54949B4B738B67174ABC791D3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CFD87E3358E6F7C14761D2F1B073A7 /* PBXTargetDependency */,
+			);
+			name = SpotifySearch;
+			productName = SpotifySearch;
+			productReference = A9BB7FA16F5E40A211E6D9B0F8CE9F4F /* SpotifySearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A39C604C3B6983F9B103D1B1D09C6A8A /* Pods-SpotifySearch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E6567E4907F709067612309535E3F6 /* Build configuration list for PBXNativeTarget "Pods-SpotifySearch_Tests" */;
+			buildPhases = (
+				585C27A3C36BC73A80CE2A5C78EF1C16 /* Sources */,
+				EFC04665A0C69089AE64D9AEB2E26BD6 /* Frameworks */,
+				1B581FCD884C936BAB4E7BB957859416 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425AADABDA4599724566E97CC3D89F6E /* PBXTargetDependency */,
+			);
+			name = "Pods-SpotifySearch_Tests";
+			productName = "Pods-SpotifySearch_Tests";
+			productReference = 844A1D761481A575EB884B507035E1EC /* Pods_SpotifySearch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D71AB53C3465C29BCDDA817253BB0B4B /* SpotifySearch-SpotifySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742BFB2C87EC3BE468987349C23C8963 /* Build configuration list for PBXNativeTarget "SpotifySearch-SpotifySearch" */;
+			buildPhases = (
+				201F87181F2512E518142DCAA0D5F109 /* Sources */,
+				48C3F2569F57EA8BBD9830013DB97812 /* Frameworks */,
+				8C9DB1CF316AEEEE0C25CB605DB69F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpotifySearch-SpotifySearch";
+			productName = "SpotifySearch-SpotifySearch";
+			productReference = 4F592D05681E4D85E18B8E554CBC8C35 /* SpotifySearch.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F9B4D22C2C84F8BAAFFA9DF071204BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39C604C3B6983F9B103D1B1D09C6A8A /* Pods-SpotifySearch_Tests */,
+				3878887F108BF6B390A21926B99BA8D7 /* SpotifySearch */,
+				D71AB53C3465C29BCDDA817253BB0B4B /* SpotifySearch-SpotifySearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7082D5E01C9FD1D75C0C91E7E221551D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A573B309FDEF9C1F4954E5CB595EF5 /* SpotifySearch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9DB1CF316AEEEE0C25CB605DB69F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201F87181F2512E518142DCAA0D5F109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585C27A3C36BC73A80CE2A5C78EF1C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1E871F1CD296EB00E4F303 /* SpotifySearch.m in Sources */,
+				AB12AF86AD727DA3A0B74DCA25437F15 /* Pods-SpotifySearch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE88020D496844BA8AEC47B02E9EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1E87201CD296EB00E4F303 /* SpotifySearch.m in Sources */,
+				808870C6A8CB747DA0849AF4BC1E554E /* SpotifySearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CFD87E3358E6F7C14761D2F1B073A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SpotifySearch-SpotifySearch";
+			target = D71AB53C3465C29BCDDA817253BB0B4B /* SpotifySearch-SpotifySearch */;
+			targetProxy = FD13BA57845F34AA1D129EE1AA5A79D1 /* PBXContainerItemProxy */;
+		};
+		425AADABDA4599724566E97CC3D89F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotifySearch;
+			target = 3878887F108BF6B390A21926B99BA8D7 /* SpotifySearch */;
+			targetProxy = B73312832578535843DE6F189FFA1DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB03A804673E5B6B72BB3E1E942D7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D03BF638FAFDF161A57A7A004153CC7 /* Pods-SpotifySearch_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotifySearch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotifySearch_Tests/Pods-SpotifySearch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SpotifySearch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E784721CA858BF0B3CCB9B144F83F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifySearch/SpotifySearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifySearch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotifySearch/SpotifySearch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SpotifySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		387B003DA5E8D3C1E0153ADF7D7D0FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848BBB800A173AF018C323B076F94CDA /* Pods-SpotifySearch_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotifySearch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotifySearch_Tests/Pods-SpotifySearch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SpotifySearch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EB30A1CC9D60AA6E4075446B8610271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifySearch/SpotifySearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifySearch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotifySearch/SpotifySearch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpotifySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7B455F315BE4FE1FC61244A835294EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SpotifySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E46D9C1EB266B35ED9EB8521817067BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54A37831E8ECC7C0F3D25A144FBA1D7 /* SpotifySearch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SpotifySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28ED1BB1502AC30B7CE298CB4E06A880 /* Build configuration list for PBXNativeTarget "SpotifySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E784721CA858BF0B3CCB9B144F83F6A /* Debug */,
+				8EB30A1CC9D60AA6E4075446B8610271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742BFB2C87EC3BE468987349C23C8963 /* Build configuration list for PBXNativeTarget "SpotifySearch-SpotifySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B455F315BE4FE1FC61244A835294EE /* Debug */,
+				E46D9C1EB266B35ED9EB8521817067BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E6567E4907F709067612309535E3F6 /* Build configuration list for PBXNativeTarget "Pods-SpotifySearch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387B003DA5E8D3C1E0153ADF7D7D0FCC /* Debug */,
+				1DB03A804673E5B6B72BB3E1E942D7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

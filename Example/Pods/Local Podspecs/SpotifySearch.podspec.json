@@ -1,0 +1,24 @@
+{
+  "name": "SpotifySearch",
+  "version": "0.1.0",
+  "summary": "A short description of SpotifySearch.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SpotifySearch",
+  "license": "MIT",
+  "authors": {
+    "Adam Różyński": "adam@micropixels.pl"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SpotifySearch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SpotifySearch/Classes/**/*",
+  "resource_bundles": {
+    "SpotifySearch": [
+      "SpotifySearch/Assets/*.png"
+    ]
+  }
+}

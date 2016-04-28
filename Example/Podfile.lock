@@ -1,0 +1,14 @@
+PODS:
+  - SpotifySearch (0.1.0)
+
+DEPENDENCIES:
+  - SpotifySearch (from `../`)
+
+EXTERNAL SOURCES:
+  SpotifySearch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SpotifySearch: c28d498ce2c17fe0953a85f4807948a2e6543b2b
+
+COCOAPODS: 0.39.0
